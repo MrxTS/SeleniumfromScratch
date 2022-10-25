@@ -1,0 +1,32 @@
+2022-10-24 08:40:30,158 :INFO pytestDemo.test_logging :Information statement
+2022-10-24 08:40:30,158 :WARNING pytestDemo.test_logging :Something is in warning mode
+2022-10-24 08:40:30,158 :ERROR pytestDemo.test_logging :A Major error has happend
+2022-10-24 08:40:30,158 :CRITICAL pytestDemo.test_logging :Critical issue
+2022-10-24 10:32:11,973 :INFO pytestDemo.baseClass :Information statement
+2022-10-24 10:32:11,973 :WARNING pytestDemo.baseClass :Something is in warning mode
+2022-10-24 10:32:11,973 :ERROR pytestDemo.baseClass :A Major error has happened
+2022-10-24 10:32:11,973 :CRITICAL pytestDemo.baseClass :Critical issue
+2022-10-24 10:32:11,973 :INFO pytestDemo.baseClass :Stefan
+2022-10-24 10:32:11,973 :INFO pytestDemo.baseClass :mein-mmo.de
+2022-10-25 12:46:28,554 :INFO pytestDemo.baseClass :Information statement
+2022-10-25 12:46:28,554 :WARNING pytestDemo.baseClass :Something is in warning mode
+2022-10-25 12:46:28,554 :ERROR pytestDemo.baseClass :A Major error has happened
+2022-10-25 12:46:28,554 :CRITICAL pytestDemo.baseClass :Critical issue
+2022-10-25 12:46:28,554 :INFO pytestDemo.baseClass :Stefan
+2022-10-25 12:46:28,554 :INFO pytestDemo.baseClass :mein-mmo.de
+2022-10-25 12:48:07,409 :INFO test_editProfile :Information statement
+2022-10-25 12:48:07,409 :WARNING test_editProfile :Something is in warning mode
+2022-10-25 12:48:07,409 :ERROR test_editProfile :A Major error has happened
+2022-10-25 12:48:07,409 :CRITICAL test_editProfile :Critical issue
+2022-10-25 12:48:07,409 :INFO test_editProfile :Stefan
+2022-10-25 12:48:07,409 :INFO test_editProfile :mein-mmo.de
+2022-10-25 12:49:36,285 :INFO test_editProfile :Information statement
+2022-10-25 12:49:36,285 :WARNING test_editProfile :Something is in warning mode
+2022-10-25 12:49:36,285 :ERROR test_editProfile :A Major error has happened
+2022-10-25 12:49:36,285 :CRITICAL test_editProfile :Critical issue
+2022-10-25 12:49:36,285 :INFO test_editProfile :Stefan
+2022-10-25 12:49:36,285 :INFO test_editProfile :mein-mmo.de
+2022-10-25 12:49:36,291 :INFO pytestDemo.test_logging :Information statement
+2022-10-25 12:49:36,291 :WARNING pytestDemo.test_logging :Something is in warning mode
+2022-10-25 12:49:36,291 :ERROR pytestDemo.test_logging :A Major error has happened
+2022-10-25 12:49:36,291 :CRITICAL pytestDemo.test_logging :Critical issue
