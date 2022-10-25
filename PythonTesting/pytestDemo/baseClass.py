@@ -12,9 +12,15 @@ class baseClass:
         logger.addHandler(fileHandler)  # filehandler object
 
         logger.setLevel(logging.INFO)
-        logger.debug("A debug statement is executed")
-        logger.info("Information statement")
-        logger.warning("Something is in warning mode")
+        logger.debug("A debugd statement is executed")
+        logger.info("Informationd statement")
+        logger.warning("Somethingd is in warning mode")
+        logger.error("A Major error has happened")
+        logger.critical("Critical issue")
+        logger.setLevel(logging.INFO)
+        logger.debug("A debugd statement is executed")
+        logger.info("Informationd statement")
+        logger.warning("Somethingd is in warning mode")
         logger.error("A Major error has happened")
         logger.critical("Critical issue")
         return logger
