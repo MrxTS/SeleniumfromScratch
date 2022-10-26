@@ -1,15 +1,17 @@
-import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
+
+from pageObjects.Homepage import Homepage
 from utilities.BaseClass import BaseClass
 
 
 class TestOne(BaseClass):
 
     def test_e2e(self):
+        homePage = Homepage(self.driver)
         # a[href*='shop'] css version //a[contains(@href.'shop')] xpath version
-        self.driver.find_element(By.CSS_SELECTOR, "a[href*='shop']").click()
+        homePage.shopItems().click()
         products = self.driver.find_elements(By.XPATH, "//div[@class='card h-100']")
 
         for product in products:
